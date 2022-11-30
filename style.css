@@ -1,0 +1,4 @@
+html, body {
+    filter: none !important;
+    -webkit-filter: none !important;
+}

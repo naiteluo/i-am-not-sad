@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "I am NOT sad",
+  "description": "Remove website grayscale effect.",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab", "http://*/", "https://*/"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "48": "icons8-rainbow-48.png",
+    "96": "icons8-rainbow-96.png"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icons8-rainbow-48.png",
+      "96": "icons8-rainbow-96.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
